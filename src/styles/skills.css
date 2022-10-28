@@ -1,0 +1,226 @@
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    color: white;
+    height: 10%;
+    background: #242424;
+    padding-bottom: 2rem;
+}
+
+.githubButton {
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
+svg {
+    margin-top: 3%;
+    margin-left: 30%;
+    width: 5rem;
+    justify-content: center;
+}
+
+.cvButton {
+    background: rgb(215, 192, 156);
+    color: #242424;
+    padding: 0rem 1rem 0rem 1rem;
+    cursor: pointer;
+}
+
+.all {
+    padding: 3rem;
+    color: white;
+    background: #242424;
+}
+
+#html::before {
+    position: absolute;
+	transition: color 0.1s linear 0.1s;
+    transform: translate(-50%, -50%);
+}
+
+#html::after {
+    content: "HTML5";
+    position: absolute;
+	transition: color 0.1s linear 0.1s;
+    font-size: 1.2rem;
+    padding-left: -3rem;
+    transition: .5s ease;
+    opacity: 0;
+}
+
+#html:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.2;
+}
+
+#html:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+#css::before {
+    position: absolute;
+	transition: color 0.1s linear 0.1s;
+    transform: translate(-50%, -50%);
+}
+
+#css::after {
+    content: "CSS3";
+    position: absolute;
+	transition: color 0.1s linear 0.1s;
+    font-size: 1.2rem;
+    padding-left: -3rem;
+    transition: .5s ease;
+    opacity: 0;
+}
+
+#css:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.2;
+}
+
+#css:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+#react::before {
+    position: absolute;
+	transition: color 0.1s linear 0.1s;
+    transform: translate(-50%, -50%);
+}
+
+#react::after {
+    content: "REACT";
+    position: absolute;
+	transition: color 0.1s linear 0.1s;
+    font-size: 1.2rem;
+    padding-left: -3rem;
+    transition: .5s ease;
+    opacity: 0;
+}
+
+#react:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.2;
+}
+
+#react:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+#js::before {
+    position: absolute;
+	transition: color 0.1s linear 0.1s;
+    transform: translate(-50%, -50%);
+}
+
+#js::after {
+    content: "JAVASCRIPT";
+    position: absolute;
+	transition: color 0.1s linear 0.1s;
+    font-size: 1.2rem;
+    padding-left: -3rem;
+    transition: .5s ease;
+    opacity: 0;
+}
+
+#js:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.2;
+}
+
+#js:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+#bootstrap::before {
+    position: absolute;
+	transition: color 0.1s linear 0.1s;
+    transform: translate(-50%, -50%);
+}
+
+#bootstrap::after {
+    content: "BOOSTRAP";
+    position: absolute;
+	transition: color 0.1s linear 0.1s;
+    font-size: 1.2rem;
+    padding-left: -3rem;
+    transition: .5s ease;
+    opacity: 0;
+}
+
+#bootstrap:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.2;
+}
+
+#bootstrap:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+#node::before {
+    position: absolute;
+	transition: color 0.1s linear 0.1s;
+    transform: translate(-50%, -50%);
+}
+
+#node::after {
+    content: "NODE.JS";
+    position: absolute;
+	transition: color 0.1s linear 0.1s;
+    font-size: 1.2rem;
+    padding-left: -3rem;
+    transition: .5s ease;
+    opacity: 0;
+}
+
+#node:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.2;
+}
+
+#node:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+.title::before {
+    position: absolute;
+	transition: color 0.1s linear 0.1s;
+    transform: translate(-50%, -50%);
+}
+
+.title::after {
+    content: "Redux";
+    position: absolute;
+	transition: color 0.1s linear 0.1s;
+    font-size: 1.2rem;
+    padding-left: -3rem;
+    transition: .5s ease;
+    margin-top: 1rem;
+    margin-left: 1.3rem;
+    opacity: 0;
+}
+
+.title:hover::before {
+    transform: translate(-50%, -50%) scale(3);
+    opacity: 0;
+}
+
+.title:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}

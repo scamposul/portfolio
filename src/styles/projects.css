@@ -1,0 +1,90 @@
+.carousel {
+    padding-top: 3rem;
+    background: rgb(215, 192, 156);
+    padding-bottom: 4rem;
+}
+
+.projects {
+    margin-left: 25%;
+    background: rgb(215, 192, 156);
+    width: 50%;
+}
+
+img {
+    border-radius: 3%;
+}
+
+p {
+    padding-bottom: 4rem;
+    color: #242424;
+    opacity: 1;
+}
+
+
+.ecommerce {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(24, 24, 24, 0.8);
+    transition: .5s ease;
+    height: 200%;
+    padding-top: 20%;
+    border-radius: 3%;
+}
+
+.item1:hover .ecommerce {
+    bottom: 0;
+    height: 100%;
+}
+
+.pokedex {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(24, 24, 24, 0.8);
+    transition: .5s ease;
+    height: 200%;
+    padding-top: 20%;
+    border-radius: 3%;
+}
+
+.item2:hover .pokedex {
+    bottom: 0;
+    height: 100%;
+}
+
+.weatherApp {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(24, 24, 24, 0.8);
+    transition: .5s ease;
+    height: 200%;
+    padding-top: 20%;
+    border-radius: 3%;
+}
+
+.item3:hover .weatherApp {
+    bottom: 0;
+    height: 100%;
+}
+
+.rmapi {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(24, 24, 24, 0.8);
+    transition: .5s ease;
+    height: 200%;
+    padding-top: 20%;
+    border-radius: 3%;
+}
+
+.item4:hover .rmapi {
+    bottom: 0;
+    height: 100%;
+}

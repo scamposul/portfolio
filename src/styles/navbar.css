@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-right: 6rem;
+    justify-content: right;
+    background: rgb(215, 192, 156);
+    list-style: none;
+    border-width: 1rem;
+    font-size: 1rem;
+    position: fixed;
+    width: 100%;
+}
+
+.rightButton {
+    padding-top: 0.7rem;
+    width: 8rem;
+    height: 2rem;
+}
+
+.leftButton {
+    padding-top: 1rem;
+}
+
+.cvButton {
+    width: 150%;
+    height: 2rem;
+    padding-top: 1rem;
+}
+
+.cvButton:hover {
+    background: #ececec
+}
+
+.githubButton:hover {
+    background: #242424;
+}
+
+.links {
+    padding-top: 1.5rem;
+    color: #242424;
+    text-decoration: none;
+    gap: 1rem;
+}

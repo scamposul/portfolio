@@ -1,0 +1,125 @@
+#root {
+  max-width: 66%;
+  margin: 0;
+  text-align: center;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  place-items: center;
+}
+
+.App {
+  width: 151.5%;
+  height: 100%;
+  color: #242424;
+  font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+
+.frontPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgb(215, 192, 156);
+  padding-top: 20rem;
+  padding-bottom: 9rem;
+}
+
+.webDeveloper {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap; 
+  font-size: 1.5rem; 
+  animation: typing 5s steps(34) infinite, blink 0.4s steps(1) infinite alternate;
+  padding-bottom: 2rem;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  70% {
+    border-color: transparent;
+  }
+}
+
+.flags {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 9rem;
+}
+
+span {
+  font-size: 2rem;
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.icons {
+  color: white;
+  display: flex;
+  gap: 1.8rem;
+  justify-content: center;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+
+#sun {
+  color: #ececec;
+}
+
+#moon {
+  color: #242424;
+}
+
+.engText {
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  padding: 0;
+  margin-bottom: 5rem;
+  background: rgba(24, 24, 24, 0);
+  color: transparent;
+}
+
+.engText:hover {
+  background: rgba(24, 24, 24, 0.5);
+  color: white;
+  transition: 0.5s;
+}
+
+.espText {
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  padding: 0;
+  margin-bottom: 5rem;
+  background: rgba(24, 24, 24, 0);
+  color: transparent;
+  transition: 0.5s;
+}
+
+.espText:hover {
+  background: rgba(24, 24, 24, 0.5);
+  color: white;
+}
+
+
