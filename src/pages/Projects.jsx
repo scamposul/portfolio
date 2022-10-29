@@ -1,11 +1,15 @@
 import React from "react";
 import "../styles/projects.css";
 import Carousel from "react-bootstrap/Carousel";
+import { useTranslation } from "react-i18next";
 
 const Projects = () => {
+
+  const [t, i18n] = useTranslation('global');
+
   return (
-    <div className="carousel">
-      <h2>PROJECTS</h2>
+    <section className="carousel" id="projects">
+      <h2>{t("projects.projects")}</h2>
       <Carousel className="projects" slide="true">
         <Carousel.Item className="item1">
           <img
@@ -40,7 +44,7 @@ const Projects = () => {
           />
           <Carousel.Caption className="weatherApp">
             <h3>Weather App</h3>
-            <h4>React | Hooks | API consumption | Axios</h4>
+            <h4>React | Hooks | {t("projects.api-consumption")} | Axios</h4>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="item4">
@@ -52,11 +56,11 @@ const Projects = () => {
           />
           <Carousel.Caption className="rmapi">
             <h3>Rick and Morty Wiki</h3>
-            <h4>React | Hooks | API consumption | Axios</h4>
+            <h4>React | Hooks | {t("projects.api-consumption")} | Axios</h4>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-    </div>
+    </section>
   );
 };
 

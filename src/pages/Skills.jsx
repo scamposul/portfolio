@@ -1,10 +1,13 @@
 import React from "react";
 import "../styles/skills.css";
+import { useTranslation } from "react-i18next";
 
 const Skills = () => {
+  const [t, i18n] = useTranslation('global');
+
   return (
-    <div className="all">
-      <h2>SKILLS</h2>
+    <section className="all" id="skills">
+      <h2>{t("skills.skills")}</h2>
       <div className="skills">
         <h1>
           <i class="fa-brands fa-html5" id="html"></i>
@@ -25,7 +28,7 @@ const Skills = () => {
           <i class="fa-brands fa-node-js" id="node"></i>
         </h1>
       </div>
-    </div>
+    </section>
   );
 };
 

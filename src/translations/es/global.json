@@ -1,0 +1,25 @@
+{
+    "nav": {
+        "home": "Incio",
+        "skills": "Habilidades",
+        "projects": "Proyectos",
+        "contact": "Contacto",
+        "download-my-cv": "Descargar mi HV"
+    },
+    "fp": {
+        "fedev": "DESARROLADOR FRONT-END"
+    },
+    "skills": {
+        "skills": "HABILIDADES"
+    },
+    "projects": {
+        "projects": "PROYECTOS",
+        "api-consumption": "Consumo de API"
+    },
+    "contact": {
+        "contact": "CONTACTO",
+        "email": "Correo electróinco",
+        "name": "Empresa / Nombre",
+        "message": "Mensaje"
+    }
+}

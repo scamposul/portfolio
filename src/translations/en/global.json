@@ -1,0 +1,25 @@
+{
+    "nav": {
+        "home": "Home",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact",
+        "download-my-cv": "Download my CV"
+    },
+    "fp": {
+        "fedev": "FRONT-END DEVELOPER"
+    },
+    "skills": {
+        "skills": "SKILLS"
+    },
+    "projects": {
+        "projects": "PROJECTS",
+        "api-consumption": "API consumption"
+    },
+    "contact": {
+        "contact": "CONTACT",
+        "email": "Email address",
+        "name": "Company / First Name",
+        "message": "Message"
+    }
+}

@@ -1,8 +1,12 @@
 import React from "react";
 import '../styles/contactForm.css';
 import emailjs from '@emailjs/browser'
+import { useTranslation } from "react-i18next";
+
 
 const ContactForm = () => {
+
+  const [t, i18n] = useTranslation('global');
 
     const sendEmail = (event) => {
         event.preventDefault();
@@ -12,11 +16,11 @@ const ContactForm = () => {
     }
 
   return (
-    <div className="contactPage" onSubmit={sendEmail}>
-        <h2>CONTACT</h2>
+    <section className="contactPage" onSubmit={sendEmail} id="contact">
+        <h2>{t("contact.contact")}</h2>
       <form className="contactForm">
         <div class="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
+          <label for="exampleFormControlInput1">{t("contact.email")}</label>
           <input
             type="email"
             className="form-control"
@@ -26,11 +30,11 @@ const ContactForm = () => {
           />
         </div>
         <div class="form-group">
-          <label for="exampleFormControlSelect1">Company / First Name</label>
+          <label for="exampleFormControlSelect1">{t("contact.name")}</label>
           <input class="form-control" id="exampleFormControlSelect1" name="user_name"/>
         </div>
         <div class="form-group">
-          <label for="exampleFormControlTextarea1">Message</label>
+          <label for="exampleFormControlTextarea1">{t("contact.message")}</label>
           <textarea
             class="form-control"
             id="exampleFormControlTextarea1"
@@ -41,7 +45,7 @@ const ContactForm = () => {
         <br />
         <button className="sendButton">Send</button>
       </form>
-    </div>
+    </section>
   );
 };
 

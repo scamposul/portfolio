@@ -1,13 +1,16 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const FrontPage = () => {
+  const [t, i18n] = useTranslation('global');
+
   return (
-    <div className="frontPage">
+    <section className="frontPage" id="home">
       <h1>
         <i class="fa-solid fa-code"></i>
       </h1>
       <h2>Sebastián Campo Sulvarán</h2>
-      <span className="webDeveloper">FRONT-END DEVELOPER</span>
+      <span className="webDeveloper">{t("fp.fedev")}</span>
       <div className="switch-button">
         <input
           type="checkbox"
@@ -24,14 +27,14 @@ const FrontPage = () => {
         <br />
         <div className="flags">
           <div className="eng">
-            <span class="fi fi-gb" id="engFlag"><p className="engText">ENG</p></span>
+            <span class="fi fi-gb" id="engFlag"><p className="engText" onClick={() => i18n.changeLanguage("en")}>ENG</p></span>
           </div>
           <div className="esp">
-            <span class="fi fi-co" id="espFlag"><p className="espText">ESP</p></span>
+            <span class="fi fi-co" id="espFlag"><p className="espText" onClick={() => i18n.changeLanguage("es")}>ESP</p></span>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
