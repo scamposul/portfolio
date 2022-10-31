@@ -6,11 +6,11 @@ import { BrowserRouter } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import { useTranslation } from "react-i18next";
 
-const Navbar = () => {
+const Navbar = ({theme}) => {
   const [t, i18n] = useTranslation('global');
   return (
     <BrowserRouter>
-    <Nav defaultActiveKey="/" as="ul" className="navbar">
+    <Nav defaultActiveKey="/" as="ul" className="navbar" data-theme={theme}>
       <div className="navlinks">
       <Nav.Item as="li">
           <Link to={"#home"} className="links">

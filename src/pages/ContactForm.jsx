@@ -43,7 +43,7 @@ const ContactForm = () => {
           ></textarea>
         </div>
         <br />
-        <button className="sendButton">Send</button>
+        <button className="sendButton">{t("contact.send")}</button>
       </form>
     </section>
   );

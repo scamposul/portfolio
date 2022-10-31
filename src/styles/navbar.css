@@ -19,13 +19,30 @@
     padding-top: 1.4rem;
 }
 
+[data-theme = 'dark'] {
+    background: #363636;
+  }
+
 a {
-    text-decoration: none;
     color: #242424;
+    text-decoration: none;
+}
+
+[data-theme = 'dark'] a {
+    text-decoration: none;
+    color: #ececec;
 }
 
 .downloadCV:hover {
     color: #242424;
+}
+
+[data-theme = 'dark'] .downloadCV {
+    color: #242424;
+}
+
+[data-theme = 'dark'] .downloadCV:hover {
+    color: #ececec;
 }
 
 .gtIcon {
@@ -52,6 +69,14 @@ a {
     height: 2rem;
 }
 
+[data-theme = 'dark'] .cvButton {
+    background: #ececec;
+}
+
+[data-theme = 'dark'] .cvButton:hover {
+    background: #242424;
+}
+
 .cvButton:hover {
     background: #ececec
 }
@@ -65,7 +90,6 @@ a {
 
 .links {
     margin-top: 2rem;
-    color: #242424;
     text-decoration: none;
     gap: 1rem;
 }

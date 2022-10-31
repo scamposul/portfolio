@@ -20,6 +20,7 @@
         "contact": "CONTACTO",
         "email": "Correo electróinco",
         "name": "Empresa / Nombre",
-        "message": "Mensaje"
+        "message": "Mensaje",
+        "send": "Enviar"
     }
 }
