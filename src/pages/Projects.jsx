@@ -13,7 +13,7 @@ const Projects = ({ theme }) => {
         <Carousel.Item className="item1">
           <img
             className="d-block w-100"
-            src="src\images\ecommerce.png"
+            src="../src/images/ecommerce.png"
             alt="First slide"
             width="80%"
           />
@@ -32,7 +32,7 @@ const Projects = ({ theme }) => {
         <Carousel.Item className="item2">
           <img
             className="d-block w-100"
-            src="src\images\pokedex.png"
+            src="../src/images/pokedex.png"
             alt="Second slide"
             width="80%"
           />
@@ -44,7 +44,7 @@ const Projects = ({ theme }) => {
         <Carousel.Item className="item3">
           <img
             className="d-block w-100"
-            src="src\images\weatherApp.png"
+            src="../src/images/weatherApp.png"
             alt="Third slide"
             width="80%"
           />
@@ -56,7 +56,7 @@ const Projects = ({ theme }) => {
         <Carousel.Item className="item4">
           <img
             className="d-block w-100"
-            src="src\images\rmapi.png"
+            src="../src/images/rmapi.png"
             alt="Fourth slide"
             width="80%"
           />
