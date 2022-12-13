@@ -57,7 +57,7 @@ const Navbar = ({theme}) => {
         </div>
         <div className="rightButton">
           <button className="cvButton" href={CV}>
-            <a href={CV} className="downloadCV" download='scampodev.pdf'>
+            <a href={CV} className="downloadCV" download='scampocv.pdf'>
             {t("nav.download-my-cv")}
             </a>
           </button>
