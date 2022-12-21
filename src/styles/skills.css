@@ -145,14 +145,14 @@ svg {
     opacity: 1;
 }
 
-#bootstrap::before {
+#postgre::before {
     position: absolute;
 	transition: color 0.1s linear 0.1s;
     transform: translate(-50%, -50%);
 }
 
-#bootstrap::after {
-    content: "BOOSTRAP";
+#postgre::after {
+    content: "POSTGRESQL";
     position: absolute;
 	transition: color 0.1s linear 0.1s;
     font-size: 1.2rem;
@@ -161,12 +161,12 @@ svg {
     opacity: 0;
 }
 
-#bootstrap:hover::before {
+#postgre:hover::before {
     transform: translate(-50%, -50%) scale(1);
     opacity: 0.2;
 }
 
-#bootstrap:hover::after {
+#postgre:hover::after {
     transform: translate(-50%, -50%) scale(1);
     opacity: 1;
 }

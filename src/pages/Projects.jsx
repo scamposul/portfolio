@@ -32,13 +32,13 @@ const Projects = ({ theme }) => {
         <Carousel.Item className="item2">
           <img
             className="d-block w-100"
-            src="https://i.ibb.co/Qct1q3S/pokedex.png"
+            src="https://i.ibb.co/h7BbWBy/ecapi.png"
             alt="Second slide"
             width="80%"
           />
           <Carousel.Caption className="pokedex">
-            <h3><a href="https://scpokedex.netlify.app" className="projectTitle">Pokedex</a></h3>
-            <h4>React | Redux | React Router | Axios</h4>
+            <h3><a href="https://github.com/scamposul/backend-ecommerce" className="projectTitle">API eCommerce</a></h3>
+            <h4>NodeJS | PostgreSQL | ExpressJS | Sequelize</h4>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="item3">

@@ -3,7 +3,7 @@ import "../styles/skills.css";
 import { useTranslation } from "react-i18next";
 
 const Skills = () => {
-  const [t, i18n] = useTranslation('global');
+  const [t, i18n] = useTranslation("global");
 
   return (
     <section className="all" id="skills">
@@ -22,7 +22,7 @@ const Skills = () => {
           <i class="fa-brands fa-square-js" id="js"></i>
         </h1>
         <h1>
-          <i class="fa-brands fa-bootstrap" id="bootstrap"></i>
+          <i class="fa-solid fa-database" id="postgre"></i>
         </h1>
         <h1>
           <i class="fa-brands fa-node-js" id="node"></i>
