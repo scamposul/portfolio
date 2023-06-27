@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
-import CV from "../docs/scampocv.pdf";
+import CV from "../docs/cvenglish.pdf";
 import "../styles/navbar.css";
 import { BrowserRouter } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
