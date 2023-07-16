@@ -49,7 +49,7 @@ const Projects = ({ theme }) => {
             width="80%"
           />
           <Carousel.Caption className="weatherApp">
-            <h3><a href="https://scpokedex.netlify.app" className="projectTitle">Weather App</a></h3>
+            <h3><a href="https://scampoweatherapp.netlify.app/" className="projectTitle">Weather App</a></h3>
             <h4>React | Hooks | {t("projects.api-consumption")} | Axios</h4>
           </Carousel.Caption>
         </Carousel.Item>
